@@ -74,7 +74,7 @@ const Stake: NextPage = () => {
 
   if (isLoading) {
     return <div className="text-center text-white w-screen mt-60  rounded-full text-4xl font-extrabold 
-     h-screen items-center justify-center animate-bounce" >Loading MetaGoblinz...... </div>;
+     h-screen items-center justify-center animate-bounce" >Loading ...... </div>;
   }
 
   function claimRewards(contract: any, contractAddress: any) {
@@ -89,10 +89,10 @@ const Stake: NextPage = () => {
   }
 
   const handleWalletConnected = () => {
-    toast.success('Hoo Welcome To MetaGoblinz!');
+    toast.success('Hoot Hoot Welcome To Dana!');
   };
   const handleWalletDisconnected = () => {
-    toast.success('bye bye');
+    toast.success('bye bye see you again soon');
   };
 
   // carousel
@@ -120,7 +120,7 @@ const Stake: NextPage = () => {
                hover:text-[#98b200] hover:border-[#d8fd08]  py-4 px-4 rounded-lg  transition-all 
                duration-300"
           >
-            {address ? `Disconnect...... (${address.slice(-4)})` : 'Connect Wallet'}
+            {address ? `Disconnect...... (${address.slice(-4)})` : 'Connect Wallet MF'}
           </button>
         ) : (
           <>
@@ -130,7 +130,7 @@ const Stake: NextPage = () => {
               <div className='grid grid-cols-1 sm:grid-cols-2 gap-4 mx-auto '>
                 <div className=' bg-opacity-750 backdrop-filter mx-auto shadow-2xl border-[#524497] border-2 overflow-hidden backdrop-blur-3xl border-opacity-70 
                   rounded-lg w-96 p-4'>
-                  <h3 className='text-[#e4a200] animate-pulse text-lg font-medium mb-2 text-center'>Claimable Goblinz</h3>
+                  <h3 className='text-[#e4a200] animate-pulse text-lg font-medium mb-2 text-center'>Claimable BNB</h3>
                   <p className='text-white text-lg font-bold text-center'>
                     <b>
                       {!claimableRewards
@@ -141,7 +141,7 @@ const Stake: NextPage = () => {
                   </p>
                 </div>
                 <div className=' bg-opacity-60 border-2 border-[#524497] shadow-2xl overflow-hidden mx-auto w-96 backdrop-filter backdrop-blur-2xl rounded-lg p-4'>
-                  <h3 className='text-[#e4a200] text-lg font-medium mb-2  text-center'>Current Goblinz</h3>
+                  <h3 className='text-[#e4a200] text-lg font-medium mb-2  text-center'>Current BNB</h3>
                   <p className='text-white text-+-lg font-bold text-center break-all'>
                     <b>{tokenBalance?.displayValue}</b> {tokenBalance?.symbol}
                   </p>

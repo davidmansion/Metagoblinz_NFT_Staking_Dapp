@@ -8,7 +8,7 @@ const Roadmap = () => {
           Our Roadmap
         </h2>
         <p className="mt-3 max-w-2xl mx-auto text-xl text-white sm:mt-4">
-          Were excited to share our plans for the future of MetaGoblinz.
+          Were excited to share our plans for the future of the DanaVerse.
         </p>
       </div>
       <div className="mt-14">
@@ -31,7 +31,7 @@ const Roadmap = () => {
                   1. Create    <b className=" text-white animate-pulse" >(Completed).......  </b>
                 </h3>
                 <p className="mt-5 text-base text-slate-100">
-                  Create and launch our first collection of Metagoblinz NFTs on the Ethereum blockchain.
+                  Create and launch our first collection of Dana NFTs on the BSC blockchain.
                 </p>
               </div>
             </div>
@@ -54,7 +54,7 @@ const Roadmap = () => {
                   2. Stake  <b className=" text-white animate-pulse" >(Completed).......  </b>
                 </h3>
                 <p className="mt-5 text-base text-slate-100">
-                  Users will be able to stake their Metagoblinz NFTs to earn rewards in Metagoblinz tokens.
+                  Users will be able to stake their Dana NFTs to earn rewards in BNB tokens.
                 </p>
               </div>
             </div>
@@ -77,7 +77,7 @@ const Roadmap = () => {
                   3. Mining Game  <b className=" text-red-400 animate-pulse" >(Comming soon).......  </b>
                 </h3>
                 <p className="mt-5 text-base text-slate-100">
-                  Comming soon Create and launch our Metagoblinz Nft Mining Game
+                  Comming soon Create and launch our Dana Nft Mining Game
                 </p>
               </div>
             </div>

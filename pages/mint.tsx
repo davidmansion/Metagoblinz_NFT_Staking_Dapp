@@ -71,7 +71,7 @@ const Mint: NextPage = () => {
                hover:text-[#98b200] hover:border-[#d8fd08]  py-4 px-4 rounded-lg  transition-all 
                duration-300"
             >
-              {address ? `Disconnect...... (${address.slice(-4)})` : 'Connect Wallet'}
+              {address ? `Disconnect...... (${address.slice(-4)})` : 'Connect Wallet MF'}
             </button>
           </div>
 
@@ -95,14 +95,14 @@ const Mint: NextPage = () => {
           <div className="mt-20 sm:mt-36 px-4 py-6 w-auto border-x-2 border-[#c3ff00bb] bg-transparent bg-opacity-25 backdrop-filter backdrop-blur-lg rounded-lg shadow-md relative">
             <div className="absolute inset-0 rounded-lg  border-2 border-gradient-to-r from-red-500 to-blue-500 filter blur-lg opacity-50"></div>
             <h1 className="z-10 relative text-3xl font-bold text-[#c3ff00bb] text-center">
-              Welcome to  Metagoblinz NFT Staking DApp
+              Welcome to  Dana NFT Staking DApp
             </h1>
             <p className="z-10 relative mt-2 font-semibold text-base text-[#4a89b8] text-center">
-              Here is where you can claim & stake your MetaGoblinz NFTs and earn MetaGoblinz Tokens as rewards!
+              Here is where you can claim & stake your Dana NFTs and earn BNB Tokens as rewards!
             </p>
           </div>
 
-          <footer className="text-[#c3ff00bb] font-normal text-xs mt-10" > 2023 MetaGoblinz All Right Reserved </footer>
+          <footer className="text-[#c3ff00bb] font-normal text-xs mt-10" > 2024 CE Ltd All Right Reserved </footer>
         </div>
 
       </div>

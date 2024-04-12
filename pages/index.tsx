@@ -38,7 +38,7 @@ const Home: NextPage = () => {
         >
           {/* Mint a new NFT */}
 
-          <h2 className={styles.selectBoxTitle}>Mint a new NFT</h2>
+          <h2 className={styles.selectBoxTitle}>Buy an NFT</h2>
 
         </div>
 
@@ -63,7 +63,7 @@ const Home: NextPage = () => {
           onClick={() => router.push(`/game`)}
         >
           {/* Play to earn */}
-          <h2 className={styles.selectBoxTitle}>Enter-Game</h2>
+          <h2 className={styles.selectBoxTitle}>Main Website</h2>
         </div>
 
         {/* ------total supply */}
@@ -71,12 +71,12 @@ const Home: NextPage = () => {
           <div className="  backdrop-blur-3xl mx-auto rounded-lg border-violet-900 border-2 shadow-2xl 
           justify-center p-4 items-center hover:transition duration-75 transform hover:scale-125">
             <div className="rounded-lg  p-2">
-              <h1 className="text-3xl text-purple-500 font-bold mb-4">Tokens Total Supply</h1>
-              <p className="text-2xl text-center text-white animate-pulse font-bold ">1 Quadrillion</p>
+              <h1 className="text-3xl text-purple-500 font-bold mb-4">BNB Total Supply</h1>
+              <p className="text-2xl text-center text-white animate-pulse font-bold ">1,773,319.677649</p>
               <div className=" justify-between mt-8">
                 <div className="grid grid-cols-1" >
                   <p className="text-white  font-bold text-sm uppercase">Circulating Supply</p>
-                  <p className="text-lg  text-slate-400 m-2 font-bold">1 Quadrillion</p>
+                  <p className="text-lg  text-slate-400 m-2 font-bold">1,773,319.677649</p>
                 </div>
                 <div>
                   <p className="text-white font-bold text-sm uppercase">Burned Tokens</p>
@@ -93,15 +93,15 @@ const Home: NextPage = () => {
           hover:transition duration-75 transform hover:scale-125 rounded-lg justify-center p-4 items-center">
             <div className=" rounded-lg  p-2">
               <h1 className="text-3xl font-bold text-purple-500  mb-4">NFT Total Supply</h1>
-              <p className="text-3xl text-center text-white animate-pulse font-bold ">50</p>
+              <p className="text-3xl text-center text-white animate-pulse font-bold ">500</p>
               <div className=" justify-between mt-8">
                 <div className="grid grid-cols-1" >
                   <p className="text-white font-bold text-sm uppercase">Owned by Users</p>
-                  <p className="text-lg  text-slate-400 m-2 font-bold">0</p>
+                  <p className="text-lg  text-slate-400 m-2 font-bold">500</p>
                 </div>
                 <div>
                   <p className="text-white font-bold text-sm uppercase">Available for Sale</p>
-                  <p className="text-lg text-slate-400 m-2  font-bold">50</p>
+                  <p className="text-lg text-slate-400 m-2  font-bold">0</p>
                 </div>
                 <div>
                   <p className="text-white font-bold text-sm uppercase">Burned NFTs</p>
@@ -132,23 +132,23 @@ const Home: NextPage = () => {
           <div className="m-auto  ">
             <h1 className="text-[#955ecf]  p-4 rounded-2xl  text-5xl  font-bold text-center">ABOUT</h1>
 
-            <div className="text-[#955ecf] text-xl p-4 mb-4 "><b className='font-black text-lg' >MetaGoblinz</b> an NFT Staking DAPP which allows users to earn rewards
-              in the form of Metagoblinz tokens by staking their ERC721 Metagoblinz NFTs.
+            <div className="text-[#955ecf] text-xl p-4 mb-4 "><b className='font-black text-lg' >DanaStake</b> an NFT Staking DAPP which allows users to earn rewards
+              in the form of BNB tokens by staking their ERC721 Dana NFTs.
               <br></br>
               <br></br>
               Our staking program is designed to be simple and user-friendly. To get started, all you need to do is <br /><br />
-              <p className="text-slate-400 "> 1. Connect your wallet and Claim your NFTs By clicking claim button</p> <br />
-              <p className="text-slate-400 ">  2. Select the NFTs you want to stake. Once your NFTs are staked, you&apos;ll start earning rewards in Metagoblinz tokens.</p>
+              <p className="text-slate-400 "> 1. Connect your wallet and see your NFTs</p> <br />
+              <p className="text-slate-400 ">  2. Select the NFTs you want to stake. Once your NFTs are staked, you&apos;ll start earning rewards in BNB tokens.</p>
               <br></br>
               <br></br>
-              Metagoblinz tokens can be used in a variety of ways, such as buying and selling on decentralized exchanges, or participating
+              BNB tokens can be used in a variety of ways, such as buying and selling on decentralized exchanges, or participating
               in other DeFi protocols. Our goal is to create a vibrant ecosystem around our NFTs, Tokens &amp; Game where users can trade, collect,
               and earn in a decentralized and transparent way.
               <br></br>
               <br></br>
-              At MetaGoblinz, we&apos;re committed to creating a sustainable and fair staking program for our users. We believe that NFTs are the
+              At Dana, we&apos;re committed to creating a sustainable and fair staking program for our users. We believe that NFTs are the
               future of digital ownership, and we&apos;re excited to be at the forefront of this movement Join us today and start earning
-              rewards with your Metagoblinz NFTs!
+              rewards with your Dana NFTs!
             </div>
           </div>
         </div>
@@ -171,7 +171,7 @@ const Home: NextPage = () => {
             image3="tamil.png" />
 
         </div> */}
-        <footer className="text-xl text-center mt-7 text-white font-bold">2023 Metagoblinz All Right Reserved. Build With 💜 By 0x👽Bala &apos;</footer>
+        <footer className="text-xl text-center mt-7 text-white font-bold">2024 CE Ltd All Right Reserved. Build With 💜 By ICSA &apos;</footer>
 
       </div>
     </div>

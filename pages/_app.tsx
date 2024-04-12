@@ -10,7 +10,7 @@ const cyber = Audiowide({
 
 
 
-const activeChain = "mumbai";
+const activeChain = "binance";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
